@@ -1,0 +1,47 @@
+
+
+        
+
+  <!-- Background Video - >
+<video autoplay muted loop id="bg-video">
+  <source src="MEDIA/Video_file_1.mp4" type="video/mp4">
+</video> -->
+
+  <!-- Your Page Content -->
+ 
+
+<!--img src="5a5eed2a-4a8e-4ac8-8651-c5b3e3772369.webp" alt="Description of image" width="300" height="200"-->
+
+
+
+
+
+
+
+<!--Background sound-->
+
+<link rel="stylesheet" href="Audio_1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+ <div class="audio-container">
+        <audio id="myAudio" autoplay loop>
+            <source src="MEDIA/Firefly in a Fairytale by Gareth Coker (Veritasium Theme).mp3" >
+            Your browser does not support the audio element.
+        </audio>
+        <button id="playPauseBtn" class="audio-btn">
+            <i class="fas fa-volume-up"></i>
+        </button>
+
+      <!--Java script for audio -->
+        <div class="wave-animation">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+    </div>
+
+ <script src="JS/Audio_1.js"></script>
+
+
+
+

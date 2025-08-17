@@ -1,0 +1,15 @@
+/* style.css */
+/* This code is used to give transparent effect on the background of the webpage*/
+
+.glass {
+  background: rgba(0, 0, 0, 0.4); /* transparent black */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+
+

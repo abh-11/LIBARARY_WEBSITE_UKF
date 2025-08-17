@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Home</title>
+    <link rel="stylesheet" href="CSS/Style.css">
+    <script defer src="scripts/Script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!--background music snipit--> 
+
+    <div id="musicPrompt" style="position: fixed; bottom: 20px; right: 20px; background: white; padding: 10px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  <p>Enable background music?</p>
+  <button id="enableMusic">Yes</button>
+  <button id="disableMusic">No</button>
+</div>
+
+<script>
+  document.getElementById('enableMusic').addEventListener('click', function() {
+    const audio = new Audio('assets/Firefly in a Fairytale by Gareth Coker (Veritasium Theme).mp3');
+    audio.loop = true;
+    audio.play();
+    document.getElementById('musicPrompt').style.display = 'none';
+  });
+  
+  document.getElementById('disableMusic').addEventListener('click', function() {
+    document.getElementById('musicPrompt').style.display = 'none';
+    // Optionally set a cookie so you don't ask again
+  });
+</script>
+  
+    <header>
+
+
+    <div class="logo">
+        <span class="three-dots">/</span> 📚 My Library
+    </div>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="Pages/Page_1.html">Books</a></li>
+            <li><a href=" Not YET">About</a></li>
+        </ul>
+    </nav>
+    <div id="clock"></div>
+</header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Our Library</h1>
+        <p>Explore the world of knowledge — anytime, anywhere.</p>
+    </section>
+
+
+    <!-- Library Sections -->
+    <main>
+
+        
+        
+ <!-- In your index.html -->
+<a href="Pages/Page_1.html" target="_blank" class="section-link">
+    <div class="section">
+        <h2>Computer Science</h2>
+        <p>Discover algorithms, programming, and system design.</p>
+    </div>
+</a>
+       <a href="Pages/Page_2.html" target="_blank" class="section-link">
+    <div class="section">
+        <h2>Self help</h2>
+        <p>“To live is to suffer, to survive is to find some meaning in the suffering.” — Friedrich Nietzsche</p>
+    </div>
+</a>
+        
+        
+        <div class="section">
+        <a href="Pages/journals_12.html" target="_blank" class="section-link">
+            <h2>Journal section</h2>
+            <p>Grammar, novels, and literature.</p>
+            <a href="#">Visit Library Website</a>
+        </div>
+      <div class="section">
+            <h2>Under development </h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+
+    </main>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 My Library. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
