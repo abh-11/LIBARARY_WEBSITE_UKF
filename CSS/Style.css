@@ -194,7 +194,7 @@
             border-radius: 10px;
         }
 
-        .book-card {
+       .book-card {
             flex: 0 0 auto;
             width: 160px;
             background: white;
@@ -209,12 +209,12 @@
         }
 
          .book-cover img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;  /* keeps aspect ratio while filling */
+            height: 100%;
+            width: 100%;
+            object-fit: contain;  /* keeps aspect ratio while filling */
 
         
-}
+        }
 
 
         .book-title {
@@ -446,4 +446,4 @@
                 min-height: 250px;
             }
         }
-
+    
