@@ -204,6 +204,14 @@
             transition: transform 0.3s;
         }
 
+        .book-card{
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s;
+        }
+
         .book-card:hover {
             transform: translateY(-5px);
         }
