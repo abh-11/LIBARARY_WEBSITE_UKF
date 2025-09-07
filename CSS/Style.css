@@ -161,6 +161,7 @@
             color: var(--primary);
             position: relative;
             padding-left: 15px;
+            scroll-margin-top: 80px; /* height of your navbar */
         }
 
         .section-title::before {
